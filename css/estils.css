@@ -99,7 +99,7 @@ mark {
 
 .caixa {
     flex: 1;
-    background-color: #e2f0ff;
+    background-color: #bed7f1;
     padding: 15px 18px;
     border-radius: 8px;
 }
@@ -121,29 +121,26 @@ mark {
     height: 24px;
 }
 
-.nota {
+.mensaje {
     margin-top: 22px;
 }
 
 /* PAGINA ACTIVITATS */
 
-.index {
-    margin: 18px 0 22px;
-}
-
-.index h2 {
-    margin-bottom: 8px;
-}
-
 .activitat {
-    border: 1px solid #c5dcf5;
+    border: 1px solid #92c2f5;
     border-radius: 8px;
     margin: 18px 0;
-    overflow: hidden;
+}
+.caixa-index {
+    flex: 1;
+    background-color: #bed7f1;
+    padding: 15px 18px;
+    border-radius: 8px;
 }
 
 .activitat h2 {
-    background-color: #d9ebff;
+    background-color: #7bb7fc;
     padding: 9px 14px;
     margin: 0;
     font-size: 20px;
@@ -159,12 +156,7 @@ mark {
 .contingut-activitat img {
     width: 34%;
     height: 145px;
-    object-fit: cover;
     border-radius: 6px;
-}
-
-.contingut-activitat div {
-    flex: 1;
 }
 
 
@@ -175,14 +167,14 @@ mark {
     text-decoration: none;
 }
 
-.crida {
-    background-color: #e2f0ff;
+.ultimo {
+    background-color: #c5daf0;
     text-align: center;
     padding: 15px;
     border-radius: 8px;
 }
 
-.crida h2 {
+.ultimo h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -341,8 +333,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
-    flex-wrap: wrap;
+    gap: 25px; 
 }
 
 footer a {
@@ -363,8 +354,6 @@ footer a {
     height: 12px;
 }
 
-.separador {
-    color: #b9d7f4;
-}
+
 
 
