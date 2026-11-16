@@ -213,8 +213,7 @@ caption {
     padding: 12px;
     font-size: 20px;
     font-weight: bold;
-    border: 1px solid #0188ff;
-    border-bottom: 0;
+    border: 1px solid #0188ff; 
 }
 
 th, td {
@@ -229,11 +228,11 @@ thead {
 }
 
 tbody{
-    background-color: #b2c4d4;
+    background-color: #dceeff;
 }
 
 tfoot {
-    background-color: #d7edff;
+    background-color: #90bee7;
     font-weight: bold;
 }
 
@@ -257,12 +256,11 @@ fieldset {
     margin: 22px 0;
 }
 
-legend {
+.h2-inscripcion{
     color: #092e68;
     background-color: #d5eaff;
     padding: 6px 12px;
     border-radius: 6px;
-    font-weight: bold;
     font-size: 18px;
 }
 
