@@ -1,56 +1,372 @@
+/* ESTILS GENERALS */
 
 body {
-    font-family: Arial;
-}
-
-header {
-    background-color: #003366;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-img {
-    margin-right: 10px;
-}
-
-.titulo {
-    border-left: 2px solid white;
-    padding-left: 15px;
-}
-
-h1 {
-    font-size: 22px;
     margin: 0;
+    font-family: Arial, sans-serif;
+    color: #172b4d;
+    background-color: #f5f8fc;
 }
 
-p {
-    font-size: 12px;
-    margin: 5px 0;
+main {
+    width: 92%;
+    max-width: 1100px;
+    min-height: 430px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
 }
 
-nav {
-    margin-left: auto;
+h2 {
+    color: #092e68;
+    margin-top: 0;
 }
-
-ul {
+.lista-1{
     display: flex;
+    gap: 20px;
     list-style: none;
 }
 
-li {
-    margin: 5px;
+/* CAPCALERA I MENU */
+
+header {
+    background-color: #073b78;
+    color: white;
+    padding: 12px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 5px;
 }
 
-a {
+.logo {
+    width: 58px;
+    height: 58px;
+    border-right: 2px solid #8db9e8;
+    padding-right: 10px;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 .activo {
-    background-color: #2998f5;
-    border-radius: 5px;
+    background-color: #012f91;
 }
+
+/* PAGINA PRINCIPAL */
+
+.presentacio {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.presentacio div {
+    flex: 1;
+}
+
+.presentacio h2 {
+    font-size: 30px;
+}
+
+.imatge-principal {
+    width: 35%;
+    border-radius: 8px;
+}
+
+mark {
+    background-color: #fff06a;
+}
+
+.columnes {
+    display: flex;
+    gap: 25px;
+    margin-top: 22px;
+}
+
+.caixa {
+    flex: 1;
+    background-color: #e2f0ff;
+    padding: 15px 18px;
+    border-radius: 8px;
+}
+
+.caixa h2 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.caixa li {
+    margin: 6px 0;
+}
+
+.icona-titol {
+    width: 24px;
+    height: 24px;
+}
+
+.nota {
+    margin-top: 22px;
+}
+
+/* PAGINA ACTIVITATS */
+
+.index {
+    margin: 18px 0 22px;
+}
+
+.index h2 {
+    margin-bottom: 8px;
+}
+
+.activitat {
+    border: 1px solid #c5dcf5;
+    border-radius: 8px;
+    margin: 18px 0;
+    overflow: hidden;
+}
+
+.activitat h2 {
+    background-color: #d9ebff;
+    padding: 9px 14px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.contingut-activitat {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 12px;
+}
+
+.contingut-activitat img {
+    width: 34%;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.contingut-activitat div {
+    flex: 1;
+}
+
+
+.contingut-activitat ul {
+    padding-left: 20px;
+}
+.actividades-lista a {
+    text-decoration: none;
+}
+
+.crida {
+    background-color: #e2f0ff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.crida h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.boto {
+    display: inline-block;
+    background-color: #075bd5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+}
+.actividades-inicio{
+    text-decoration: none;
+}
+
+
+/* PAGINA HORARIS */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+caption {
+    background-color: #dceeff;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #0188ff;
+    border-bottom: 0;
+}
+
+th, td {
+    border: 1px solid #0732c2;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #0589f5;
+    color: white;
+}
+
+tbody{
+    background-color: #b2c4d4;
+}
+
+tfoot {
+    background-color: #d7edff;
+    font-weight: bold;
+}
+
+tfoot td {
+    text-align: center;
+}
+.enllac-horari a {
+    text-decoration: none;
+}
+
+/* PAGINA INSCRIPCIO */
+
+.titol-formulari {
+    font-size: 29px;
+}
+
+fieldset {
+    border: 1px solid #1688ed;
+    border-radius: 8px;
+    padding: 18px;
+    margin: 22px 0;
+}
+
+legend {
+    color: #092e68;
+    background-color: #d5eaff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dues-columnes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dues-columnes div {
+    flex: 1;
+    min-width: 220px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+label span {
+    color: red;
+}
+
+.campo {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #9daec2;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.radios {
+    display: flex;
+    gap: 25px;
+    margin-top: 12px;
+}
+
+.radios label, .casella {
+    font-weight: normal;
+}
+
+.radios input, .casella input {
+    margin-right: 7px;
+}
+
+.botons-formulari {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0 10px;
+}
+
+button {
+    min-width: 150px;
+    background-color: #075bd5;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 11px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boto-reset {
+    background-color: white;
+    color: #075bd5;
+    border: 1px solid #075bd5;
+}
+
+/* PEU DE PAGINA */
+
+footer {
+    background-color: #073b78;
+    color: white;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.icona-peu {
+    width: 19px;
+    height: 19px;
+}
+
+.icona-petita {
+    width: 12px;
+    height: 12px;
+}
+
+.separador {
+    color: #b9d7f4;
+}
+
+
